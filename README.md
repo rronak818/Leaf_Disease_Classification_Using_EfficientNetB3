@@ -16,8 +16,17 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/rronak818/Leaf_Disease_Classification_Using_EfficientNetB3.git
 cd leaf-disease-classification
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
+
+## Dataset
+
+The dataset used for training and evaluating the model can be downloaded from Kaggle. You can get the "New Plant Diseases Dataset" from the following link:
+
+- [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+
+  This dataset is recreated using offline augmentation from the original dataset. The original dataset can be found on this github repo. This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes. The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure. A new directory containing 33 test images is created later for prediction purpose.
+
 
 ## Usage
 
