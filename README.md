@@ -42,12 +42,12 @@ The model achieves an accuracy of ~98% on the test dataset. Detailed evaluation 
 
 - Training VS Validation PLot:
 
-    ![Train vs validation plot](images/.png)
+    ![Train vs validation plot](images/plot.png)
 
 
 - Classification Report:
 
-    ![Classificatin Report](images/image_name.png)
+    ![Classificatin Report](images/report.png)
 
 ## Contributing
 
